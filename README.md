@@ -17,7 +17,7 @@ This is my implementation of the Blazor WebAssembly-based workflow builder.
 
 - **Node rendering (like icons or visual blocks on canvas)** doesn’t work fully because I am using version `3.0.3` of `Z.Blazor.Diagrams`,
 - which doesn’t support custom `NodeComponent<>` rendering.
-- I **couldn't upgrade** the diagram library to 3.1+ because that version isn't available via NuGet at the time of doing this project.
+- I **couldn't upgrade** the diagram library to 3.1+ because that version isn't available at the time of doing this project.
 - Some style customization (like colored nodes or icons) is missing for the same reason.
 - Nodes are **positioned and linked correctly**, but the canvas may not show visual feedback as expected but all actions are shown in the web browser console.
 
@@ -32,4 +32,4 @@ This is my implementation of the Blazor WebAssembly-based workflow builder.
 
 Here’s a quick demo of the project in action:
 
-![Workflow Demo](demo.gif)
+![Workflow Demo](Demo.gif)
