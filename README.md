@@ -27,3 +27,9 @@ This is my implementation of the Blazor WebAssembly-based workflow builder.
    ```bash
    git clone https://github.com/kn000x001/sd-solutions---MiniWorkflowBuilder.git
    cd MiniWorkflowBuilder
+
+## 🎥 Demo
+
+Here’s a quick demo of the project in action:
+
+![Workflow Demo](demo.gif)
