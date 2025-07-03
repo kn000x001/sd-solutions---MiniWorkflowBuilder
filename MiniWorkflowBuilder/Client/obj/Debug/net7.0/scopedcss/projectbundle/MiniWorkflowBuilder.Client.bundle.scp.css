@@ -1,0 +1,206 @@
+/* /Components/CanvasArea.razor.rz.scp.css */
+.canvas-container[b-g8nqs9njyv] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#diagram-canvas[b-g8nqs9njyv] {
+    height: 100%;
+    width: 100%;
+}
+
+.test-button[b-g8nqs9njyv] {
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+}
+
+.node[b-g8nqs9njyv]::after {
+    content: attr(data-title);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+/* /Components/NodeDrawer.razor.rz.scp.css */
+.drawer[b-igtkru5wjq] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+.drawer-header[b-igtkru5wjq] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drawer-input[b-igtkru5wjq] {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.filter-row[b-igtkru5wjq] {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.node[b-igtkru5wjq]::after {
+    content: attr(data-title);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+/* /Components/Sidebar.razor.rz.scp.css */
+.sidebar[b-lzwl1m1gcl] {
+    width: 64px;
+    background-color: var(--color-surface-200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    gap: 12px;
+}
+
+.toolbar-icon[b-lzwl1m1gcl] {
+    width: 32px;
+    height: 32px;
+    cursor: grab;
+}
+
+.toolbar-icon-wrapper[b-lzwl1m1gcl] {
+    cursor: grab;
+    margin-bottom: 12px;
+}
+
+.toolbar-icon[b-lzwl1m1gcl] {
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.main-layout[b-oxfjqo5ys2] {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.app-header[b-oxfjqo5ys2] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-body[b-oxfjqo5ys2] {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar[b-oxfjqo5ys2] {
+    width: 80px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    overflow-y: auto;
+}
+
+.canvas-area[b-oxfjqo5ys2] {
+    flex: 1;
+    position: relative;
+    background-color: #f0f2f5;
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-cwp25kmogj] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-cwp25kmogj] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-cwp25kmogj] {
+    font-size: 1.1rem;
+}
+
+.oi[b-cwp25kmogj] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-cwp25kmogj] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-cwp25kmogj] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-cwp25kmogj] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-cwp25kmogj]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-cwp25kmogj]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-cwp25kmogj]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-cwp25kmogj] {
+        display: none;
+    }
+
+    .collapse[b-cwp25kmogj] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-cwp25kmogj] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

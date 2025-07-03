@@ -1,0 +1,47 @@
+{
+  "WorkFlowId": 0,
+  "WorkFlowName": "Demo",
+  "WorkflowTypeId": 1,
+  "IsActive": true,
+  "WorkflowActivities": [
+    {
+      "StepNo": 1,
+      "ParentStepNo": 0,
+      "Name": "Start",
+      "ActivityId": 100,
+      "ApplicationId": 1,
+      "WorkflowActivityJumps": [
+        { "JumpToStep": 2 }
+      ]
+    },
+    {
+      "StepNo": 2,
+      "ParentStepNo": 0,
+      "Name": "For Each",
+      "ActivityId": 200,
+      "ApplicationId": 1,
+      "WorkflowActivityJumps": [
+        { "JumpToStep": 3 },
+        { "JumpToStep": 4 }
+      ]
+    },
+    {
+      "StepNo": 3,
+      "ParentStepNo": 2,
+      "Name": "Loop Body",
+      "ActivityId": 300,
+      "ApplicationId": 1,
+      "WorkflowActivityJumps": [
+        { "JumpToStep": 2 }
+      ]
+    },
+    {
+      "StepNo": 4,
+      "ParentStepNo": 0,
+      "Name": "Done",
+      "ActivityId": 400,
+      "ApplicationId": 1,
+      "WorkflowActivityJumps": []
+    }
+  ]
+}

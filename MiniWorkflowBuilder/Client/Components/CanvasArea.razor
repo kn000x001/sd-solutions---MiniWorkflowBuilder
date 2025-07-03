@@ -1,0 +1,32 @@
+﻿@using Blazor.Diagrams
+@using Blazor.Diagrams.Components
+@using MiniWorkflowBuilder.Data
+@using Blazor.Diagrams.Core.Geometry
+
+<div id="diagram-canvas"
+     class="canvas-container">
+
+    <div class="toolbar">
+        <button @onclick="LoadWorkflowFromJson">Load Workflow</button>
+        <button @onclick="ExportDiagram">Export Diagram</button>
+    </div>
+
+    @if (diagram?.Nodes?.Any() == true)
+    {
+        <div class="node-list">
+            <h4> Loaded Nodes:</h4>
+            <ul>
+                @foreach (var node in diagram.Nodes.OfType<WorkflowNode>())
+                {
+                    <li>
+                        Step @node.NodeData.StepNo – @node.Title
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+
+    <DiagramComponent Diagram="@diagram" Class="canvas" />
+
+    <NodeDrawer Node="selectedNode" OnClose="@CloseDrawer" />
+</div>

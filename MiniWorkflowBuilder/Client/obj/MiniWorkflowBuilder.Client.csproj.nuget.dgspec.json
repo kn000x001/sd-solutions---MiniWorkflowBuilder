@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\MiniWorkflowBuilder.Client.csproj": {}
+  },
+  "projects": {
+    "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\MiniWorkflowBuilder.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\MiniWorkflowBuilder.Client.csproj",
+        "projectName": "MiniWorkflowBuilder.Client",
+        "projectPath": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\MiniWorkflowBuilder.Client.csproj",
+        "packagesPath": "C:\\Users\\GComp.ge\\.nuget\\packages\\",
+        "outputPath": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GComp.ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Shared\\MiniWorkflowBuilder.Shared.csproj": {
+                "projectPath": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Shared\\MiniWorkflowBuilder.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Z.Blazor.Diagrams": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Shared\\MiniWorkflowBuilder.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Shared\\MiniWorkflowBuilder.Shared.csproj",
+        "projectName": "MiniWorkflowBuilder.Shared",
+        "projectPath": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Shared\\MiniWorkflowBuilder.Shared.csproj",
+        "packagesPath": "C:\\Users\\GComp.ge\\.nuget\\packages\\",
+        "outputPath": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GComp.ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

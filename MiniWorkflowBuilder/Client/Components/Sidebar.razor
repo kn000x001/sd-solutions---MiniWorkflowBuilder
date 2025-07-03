@@ -1,0 +1,10 @@
+﻿<div class="sidebar">
+    @foreach (var icon in ToolbarIcons)
+    {
+        <div class="toolbar-icon-wrapper"
+             draggable="true"
+             ondragstart="console.log('Dragging @icon.Type'); event.dataTransfer.setData('application/node-type', '@icon.Type')">
+            <img src="@icon.Src" class="toolbar-icon" />
+        </div>
+    }
+</div>

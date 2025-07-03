@@ -1,0 +1,121 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\obj\\Debug\\net7.0\\build-gz\\y9yPtkHA.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MiniWorkflowBuilder.Client.styles.css",
+      "PackagePath": "staticwebassets\\MiniWorkflowBuilder.Client.styles.css"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\data\\sample-workflow.json",
+      "PackagePath": "staticwebassets\\data\\sample-workflow.json"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icons\\end.svg",
+      "PackagePath": "staticwebassets\\icons\\end.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icons\\foreach.svg",
+      "PackagePath": "staticwebassets\\icons\\foreach.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icons\\if.svg",
+      "PackagePath": "staticwebassets\\icons\\if.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icons\\scope.svg",
+      "PackagePath": "staticwebassets\\icons\\scope.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icons\\start.svg",
+      "PackagePath": "staticwebassets\\icons\\start.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\icons\\switch.svg",
+      "PackagePath": "staticwebassets\\icons\\switch.svg"
+    },
+    {
+      "Id": "D:\\coding\\MiniWorkflowBuilder\\MiniWorkflowBuilder\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MiniWorkflowBuilder.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MiniWorkflowBuilder.Client.props",
+      "PackagePath": "build\\MiniWorkflowBuilder.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MiniWorkflowBuilder.Client.props",
+      "PackagePath": "buildMultiTargeting\\MiniWorkflowBuilder.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MiniWorkflowBuilder.Client.props",
+      "PackagePath": "buildTransitive\\MiniWorkflowBuilder.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

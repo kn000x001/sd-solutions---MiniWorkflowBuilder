@@ -1,0 +1,37 @@
+.drawer[b-igtkru5wjq] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+.drawer-header[b-igtkru5wjq] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drawer-input[b-igtkru5wjq] {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.filter-row[b-igtkru5wjq] {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.node[b-igtkru5wjq]::after {
+    content: attr(data-title);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}

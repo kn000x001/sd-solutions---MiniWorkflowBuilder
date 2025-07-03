@@ -1,0 +1,26 @@
+.sidebar[b-lzwl1m1gcl] {
+    width: 64px;
+    background-color: var(--color-surface-200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    gap: 12px;
+}
+
+.toolbar-icon[b-lzwl1m1gcl] {
+    width: 32px;
+    height: 32px;
+    cursor: grab;
+}
+
+.toolbar-icon-wrapper[b-lzwl1m1gcl] {
+    cursor: grab;
+    margin-bottom: 12px;
+}
+
+.toolbar-icon[b-lzwl1m1gcl] {
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+}

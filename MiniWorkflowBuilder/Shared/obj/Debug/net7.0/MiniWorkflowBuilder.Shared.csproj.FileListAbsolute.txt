@@ -1,0 +1,11 @@
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\bin\Debug\net7.0\MiniWorkflowBuilder.Shared.deps.json
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\bin\Debug\net7.0\MiniWorkflowBuilder.Shared.dll
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\bin\Debug\net7.0\MiniWorkflowBuilder.Shared.pdb
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\MiniWorkflowBuilder.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\MiniWorkflowBuilder.Shared.AssemblyInfoInputs.cache
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\MiniWorkflowBuilder.Shared.AssemblyInfo.cs
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\MiniWorkflowBuilder.Shared.csproj.CoreCompileInputs.cache
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\MiniWorkflowBuilder.Shared.dll
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\refint\MiniWorkflowBuilder.Shared.dll
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\MiniWorkflowBuilder.Shared.pdb
+D:\coding\MiniWorkflowBuilder\MiniWorkflowBuilder\Shared\obj\Debug\net7.0\ref\MiniWorkflowBuilder.Shared.dll

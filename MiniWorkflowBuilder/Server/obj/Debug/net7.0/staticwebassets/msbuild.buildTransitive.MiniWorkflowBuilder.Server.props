@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MiniWorkflowBuilder.Server.props" />
+</Project>

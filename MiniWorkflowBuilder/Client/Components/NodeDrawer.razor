@@ -1,0 +1,37 @@
+﻿@using MiniWorkflowBuilder.Data
+
+@if (Node != null)
+{
+    <div class="drawer">
+        <div class="drawer-header">
+            <h3>Edit Node</h3>
+            <button @onclick="OnClose">Close</button>
+        </div>
+
+        <div class="drawer-body">
+            <label>Label:</label>
+            <input @bind="Node.NodeData.Label" class="drawer-input" />
+
+            <h4>Filters</h4>
+            @foreach (var filter in Node.NodeData.Filters)
+            {
+                <div class="filter-row">
+                    <input placeholder="Field" @bind="filter.FieldName" />
+                    <input placeholder="Condition" @bind="filter.Condition" />
+                    <input placeholder="Value" @bind="filter.Value" />
+                    <button @onclick="@(() => RemoveFilter(filter))">✕</button>
+                </div>
+            }
+
+            <button @onclick="AddFilter">Add Filter</button>
+
+            <hr />
+
+            <div class="node-actions">
+                <button @onclick="DeleteNode">🗑 Delete</button>
+                <button @onclick="DuplicateNode">📄 Duplicate</button>
+                <button @onclick="RunNode">▶ Run</button>
+            </div>
+        </div>
+    </div>
+}

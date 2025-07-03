@@ -1,0 +1,28 @@
+.canvas-container[b-g8nqs9njyv] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#diagram-canvas[b-g8nqs9njyv] {
+    height: 100%;
+    width: 100%;
+}
+
+.test-button[b-g8nqs9njyv] {
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+}
+
+.node[b-g8nqs9njyv]::after {
+    content: attr(data-title);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
