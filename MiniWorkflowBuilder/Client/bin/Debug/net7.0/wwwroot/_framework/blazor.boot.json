@@ -202,14 +202,14 @@
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
       "MiniWorkflowBuilder.Shared.dll": "sha256-a1In+d5Nx+XgsfjdACLXGaROB+4O\/imyzUh7R2GSVU4=",
-      "MiniWorkflowBuilder.Client.dll": "sha256-KbSvoOrtK8hYf7UiMN1xlehBf8zvRSzu7hs4gGfbQc4="
+      "MiniWorkflowBuilder.Client.dll": "sha256-XL5vmorRbT1KjSnqlc1e6zwbXkr+s8mrr9HxQOQDJVI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "MiniWorkflowBuilder.Shared.pdb": "sha256-nAvlGn3LOqUUWlfHwf1bA3MgaE8Nf5X543Nwt6WLRw8=",
-      "MiniWorkflowBuilder.Client.pdb": "sha256-vrNqRxXTlurjulehgarNIYBvHAaUpTq4SrLwmHEqgrQ="
+      "MiniWorkflowBuilder.Client.pdb": "sha256-5dA+xQKQl\/IiR4PanfnMYRBJE7TtX11bgWSkL88+Akk="
     },
     "runtime": {
       "dotnet.7.0.11.sp48vwpapb.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
